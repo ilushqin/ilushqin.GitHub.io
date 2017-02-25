@@ -1,0 +1,125 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    padding-top: 0;
+    height: 100%;
+}
+.Top-bg{
+background: url(/image/Top-bg.jpg) no-repeat; 
+color: #fff; 
+height: 686px;
+width: 100%;
+padding : 0;
+background-size: cover;
+}
+.upper-text{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 70px;
+}
+.up-text{
+    position: absolute;
+    top: 365px;
+    left: 455px;
+    font-size: 30px;
+}
+.middle-bg{
+    background: url(/image/middle-bg.jpg) no-repeat; 
+    color: #1a0f05; 
+    height: 200px ;
+    padding : 300px;
+    background-size: cover;
+}
+.first-text{
+    position: absolute;
+    top: 810px;
+    left: 60px;
+    font-size: 30px;
+}
+.second-text{
+    position: absolute;
+    top: 960px;
+    left: 60px;
+    font-size: 15px;
+}
+.youtube-button{
+    position: absolute;
+    top: 1100px;
+    left: 60px;
+    }
+.bottom-bg {
+    background: url(/image/bottom-bg.jpg) no-repeat; 
+    color: #fff; 
+    padding-top: 960px;
+    background-size: cover;
+}
+.Oglavlenie-gallery{
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    
+}
+.Button-Gallery{
+    position: absolute;
+    top: 1700px;
+    left: 550px;
+}
+nav{
+    float: left;
+    clear: left;
+    position: absolute;
+    top: 2100px;
+}
+nav li {
+    float: left;
+    margin-right: 50px;
+    font-family: Bebas Neue;
+    list-style-type: none;
+}
+nav li a{
+    font-size: 30px;
+    color: #bfbfbf;
+    text-decoration: none;
+}
+.crossline{
+    position: absolute;
+    top: 2400px;
+    left: 50px;
+}
+.sign{
+    position: absolute;
+    top: 2335px;
+    left: 15px;
+    list-style-type: none;
+}
+.sign li{
+    float: left;
+    margin-right: 220px;
+    font-family: Bebas Neue;
+    list-style-type: none;
+}
+.sign li a{
+    font-size: 60px;
+    color: #bfbfbf;
+    text-decoration: none;
+}
+.inst{
+    position: absolute;
+    top: 2200px;
+    left: 1100px;
+}
+.vk{
+    position: absolute;
+    top: 2200px;
+    left: 1180px;
+}
+.nik{
+    position: absolute;
+    top: 2100px;
+    left: 1100px;
+}
+
+
