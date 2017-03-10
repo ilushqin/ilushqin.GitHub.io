@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>То чем я хочу заниматься))</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style_for_interest.css" type="text/css"/>
+        <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <div class="Top-bg">
+
+            <video class="video" id="video"  loop="loop" >
+                <source src="/image/prev.mp4">
+                <source src="/image/prev.webm" type="video/webm">
+            </video>
+            <div id="knopki">
+                <button onclick="enableMute()" type="button">Mute sound</button>
+                <button onclick="disableMute()" type="button">Enable sound</button>
+            </div>
+            <script>
+                var vid = document.getElementById("video");
+                vid.volume = 0.1;
+                function enableMute() {
+                    vid.muted = true;
+                }
+
+                function disableMute() {
+                    vid.muted = false;
+                }
+                var video = document.getElementById("video");
+                video.play();
+
+            </script>
+            <div id="list">
+                <nav class="SSILKI">
+                    <ul>
+                        <li><a href="my_sees.html" title="Мои взгляды">Мои взгляды</a></li>
+                        <li><a href="story.html" title="Интересные истории">Интересные истории</a></li>
+                        <li><a href="contact.html" title="Контакты">Контакты</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>                      <!-- END OF Top-bg !-->
+        <div class="middle">
+            <div class="text-h2">
+                <h2>
+                    С недавних пор я стал увлекаться кроссфитом, мне стало интересно менять своё тело. 
+                    Также, как мне кажется, в программировании меня больше всего привлекает frond-end. 
+                    Меня очень затягивает motion design, работа с графикой, обработкой видео. 
+                </h2>
+            </div>
+            <div class="text-h1">
+                <h1>Пример моей работы</h1>
+            </div>
+            <div class="video-2">
+                <video class="video-2" id="video-2" loop="loop" controls>
+                    <source src="/image/vid-2.mp4">
+                    <source src="/image/vid-2.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+
+    </body>
+</html>
